@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963439363743810932/f8e3c730d69c4943aa832f1cde41f7f4/artifacts
+end_time: 1727610711598
+entry_point_name: ''
+experiment_id: '963439363743810932'
+lifecycle_stage: active
+run_id: f8e3c730d69c4943aa832f1cde41f7f4
+run_name: neural_net_use_run
+run_uuid: f8e3c730d69c4943aa832f1cde41f7f4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1727610693987
+status: 3
+tags: []
+user_id: gaspardhurez

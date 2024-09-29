@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block script %}
+<script src="../static/js/main.js" defer></script>
+<link rel="stylesheet" href="{{ url_for('static', filename='css/tagger.css') }}">
+{% endblock %}
+
+{% block content %}
+
+<div class="content">
+
+    <div class="div">
+
+        <form action="" class="input-question">
+
+            <legend> Suggestion de tags</legend>
+            <label for="question">Question</label>
+
+            <div>
+                <input type="text" id="question" name="question" required placeholder="Entrez votre question">
+                <button>Suggestions</button>
+
+            </div>
+            
+
+    </div>
+
+    
+
+    </form>
+</div>
+
+{% endblock %}
+
+    
