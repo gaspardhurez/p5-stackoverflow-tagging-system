@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/963439363743810932/b0367f9134d74f269aff70ab085f5cf1/artifacts
+end_time: 1728031676258
+entry_point_name: ''
+experiment_id: '963439363743810932'
+lifecycle_stage: active
+run_id: b0367f9134d74f269aff70ab085f5cf1
+run_name: log_reg_use_test_evaluation
+run_uuid: b0367f9134d74f269aff70ab085f5cf1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1728031675617
+status: 3
+tags: []
+user_id: gaspardhurez
