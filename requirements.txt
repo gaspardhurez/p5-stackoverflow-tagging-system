@@ -2,4 +2,3 @@ flask
 tensorflow_hub
 numpy
 joblib
-gunicorn
