@@ -26,6 +26,14 @@ jobs:
         username: ${{ secrets.AzureAppService_ContainerUsername_3dea4c21771b44b0b768c22aef7d6145 }}
         password: ${{ secrets.AzureAppService_ContainerPassword_21a605a6f3764101a7f178969960daef }}
 
+    
+    - name: Build Docker image
+      run: docker build -t my-app .
+
+    - name: Run PyTest tests
+      run: |
+        docker run my-app pytest
+
     - name: Build and push container image to registry
       uses: docker/build-push-action@v3
       with:
